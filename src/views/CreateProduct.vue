@@ -2,26 +2,26 @@
   <q-page padding>
     <q-card>
       <q-card-section>
-        <div class="text-h6">產品表單</div>
+        <div class="text-h6">保單資訊</div>
         <div class="text-subtitle2">請輸入產品資訊</div>
       </q-card-section>
 
       <q-card-section>
         <q-form ref="formRef" @submit="submitForm" @reset="resetForm">
-          <!-- 產品名稱 -->
+          <!-- 保單單號 -->
           <q-input
             v-model="formData.name"
-            label="產品名稱"
+            label="保單單號"
             :rules="[rules.required]"
             outlined
             dense
             clearable
           />
 
-          <!-- 價格 -->
+          <!-- 理賠號碼 -->
           <q-input
             v-model.number="formData.price"
-            label="價格 (NTD)"
+            label="理賠號碼"
             type="number"
             :rules="[rules.required, rules.positiveNumber]"
             outlined
@@ -32,7 +32,7 @@
           <!-- 描述 -->
           <q-input
             v-model="formData.description"
-            label="產品描述"
+            label="相關備註"
             type="textarea"
             :rules="[rules.required]"
             outlined

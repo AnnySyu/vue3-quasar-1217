@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "新商品 1",
+    "description": "最新保單資訊都可從此處觀看。",
+    "buttonLabel": "查看詳細"
+  },
+  {
+    "id": "2",
+    "title": "重大疾病相關保單 2",
+    "description": "重大疾病相關保單資訊可從此處觀看。",
+    "buttonLabel": "查看詳細"
+  },
+  {
+    "id": "3",
+    "title": "儲蓄險相關保單 3",
+    "description": "儲蓄險相關保單資訊可從此處觀看。",
+    "buttonLabel": "立即查看"
+  }  
+]
